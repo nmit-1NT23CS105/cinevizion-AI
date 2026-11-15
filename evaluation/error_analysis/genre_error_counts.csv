@@ -1,0 +1,9 @@
+Genre,True_Positive,False_Positive,False_Negative,True_Negative
+Action,105,143,29,384
+Adventure,57,100,30,474
+Comedy,212,79,78,292
+Crime,75,164,43,379
+Drama,325,199,37,100
+Horror,18,23,32,588
+Romance,90,161,43,367
+Thriller,68,172,24,397

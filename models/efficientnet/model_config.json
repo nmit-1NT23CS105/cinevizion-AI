@@ -1,0 +1,37 @@
+{
+    "model_name": "CineVision_EfficientNetB0",
+    "architecture": "EfficientNetB0",
+    "pretrained_weights": "ImageNet",
+    "input_size": [
+        224,
+        224,
+        3
+    ],
+    "num_classes": 8,
+    "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Crime",
+        "Drama",
+        "Horror",
+        "Romance",
+        "Thriller"
+    ],
+    "output_activation": "sigmoid",
+    "loss": "weighted_binary_crossentropy",
+    "phase_a_epochs": 15,
+    "phase_a_learning_rate": 0.001,
+    "phase_b_epochs": 20,
+    "phase_b_learning_rate": 1e-05,
+    "batch_size": 32,
+    "augmentation": [
+        "RandomFlip",
+        "RandomRotation",
+        "RandomZoom",
+        "RandomTranslation",
+        "RandomContrast"
+    ],
+    "fine_tuning": "Upper 30 percent of EfficientNet layers",
+    "batch_normalization_layers": "Frozen"
+}

@@ -1,0 +1,58 @@
+CINEVISION AI - MODEL EVALUATION SUMMARY
+======================================================================
+
+Model: EfficientNetB0
+Task: Multi-Label Movie Genre Classification
+
+Threshold optimization:
+Thresholds optimized ONLY on validation set.
+Test set was not used during threshold optimization.
+
+OPTIMAL THRESHOLDS
+----------------------------------------------------------------------
+Action: 0.51
+Adventure: 0.60
+Comedy: 0.46
+Crime: 0.45
+Drama: 0.34
+Horror: 0.89
+Romance: 0.51
+Thriller: 0.51
+
+VALIDATION OVERALL METRICS
+----------------------------------------------------------------------
+Macro Precision: 0.4765
+Macro Recall: 0.6805
+Macro F1: 0.5361
+Micro Precision: 0.4926
+Micro Recall: 0.7583
+Micro F1: 0.5972
+Macro ROC-AUC: 0.7804
+Macro PR-AUC: 0.5274
+Hamming Loss: 0.2453
+Exact Match Ratio: 0.1045
+
+TEST OVERALL METRICS
+----------------------------------------------------------------------
+Macro Precision: 0.4412
+Macro Recall: 0.6849
+Macro F1: 0.5218
+Micro Precision: 0.4771
+Micro Recall: 0.7504
+Micro F1: 0.5834
+Macro ROC-AUC: 0.7840
+Macro PR-AUC: 0.5104
+Hamming Loss: 0.2566
+Exact Match Ratio: 0.0847
+
+TEST PER-GENRE METRICS
+----------------------------------------------------------------------
+    Genre  Precision   Recall       F1  ROC_AUC   PR_AUC
+   Action   0.423387 0.783582 0.549738 0.821250 0.557649
+Adventure   0.363057 0.655172 0.467213 0.803536 0.488475
+   Comedy   0.728522 0.731034 0.729776 0.836853 0.796805
+    Crime   0.313808 0.635593 0.420168 0.709164 0.334704
+    Drama   0.620229 0.897790 0.733634 0.706258 0.743271
+   Horror   0.439024 0.360000 0.395604 0.871980 0.421799
+  Romance   0.358566 0.676692 0.468750 0.755895 0.426291
+ Thriller   0.283333 0.739130 0.409639 0.767040 0.313955

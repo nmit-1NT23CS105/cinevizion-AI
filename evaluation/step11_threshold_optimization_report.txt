@@ -1,0 +1,33 @@
+CINEVISION AI - STEP 11 THRESHOLD OPTIMIZATION REPORT
+======================================================================
+
+OPTIMAL V2 THRESHOLDS:
+{
+    "Action": 0.5,
+    "Adventure": 0.6,
+    "Comedy": 0.46,
+    "Crime": 0.45,
+    "Drama": 0.34,
+    "Horror": 0.85,
+    "Romance": 0.52,
+    "Thriller": 0.52
+}
+
+EVALUATION COMPARISON:
+                   Configuration  Macro F1  Micro F1  Macro Precision  Macro Recall  Hamming Loss  Exact Match  Partial Match
+      Validation (V1 Thresholds)  0.536119  0.597201         0.476504      0.680538      0.245265     0.104545       0.937879
+Validation (V2 Joint Thresholds)  0.534193  0.596154         0.458397      0.684166      0.246591     0.104545       0.939394
+ Test (V1 Thresholds - Original)  0.521815  0.583359         0.441241      0.684874      0.256619     0.084720       0.931921
+      Test (V2 Joint Thresholds)  0.526730  0.584691         0.440894      0.691210      0.255484     0.086233       0.937973
+Test (TTA + V2 Joint Thresholds)  0.532113  0.591091         0.444862      0.700080      0.251702     0.099849       0.939486
+
+PER-GENRE V2 BREAKDOWN:
+    Genre  V1_Thresh  V2_Thresh  Precision   Recall       F1  ROC_AUC   PR_AUC
+   Action       0.51       0.50   0.422311 0.791045 0.550649 0.821250 0.557649
+Adventure       0.60       0.60   0.363057 0.655172 0.467213 0.803536 0.488475
+   Comedy       0.46       0.46   0.728522 0.731034 0.729776 0.836853 0.796805
+    Crime       0.45       0.45   0.313808 0.635593 0.420168 0.709164 0.334704
+    Drama       0.34       0.34   0.620229 0.897790 0.733634 0.706258 0.743271
+   Horror       0.89       0.85   0.431373 0.440000 0.435644 0.871980 0.421799
+  Romance       0.51       0.52   0.362140 0.661654 0.468085 0.755895 0.426291
+ Thriller       0.51       0.52   0.285714 0.717391 0.408669 0.767040 0.313955

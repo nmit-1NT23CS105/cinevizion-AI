@@ -1,0 +1,46 @@
+CINEVISION AI — MASTER DATASET REPORT
+======================================================================
+
+SOURCE DATASET
+C:\DLP_LA-2\Multi_Label_dataset
+
+TARGET GENRES
+1. Action
+2. Adventure
+3. Comedy
+4. Crime
+5. Drama
+6. Horror
+7. Romance
+8. Thriller
+
+DATASET CLEANING
+Original records: 7254
+Removed zero-target records: 606
+Removed duplicate records: 10
+Final records: 6638
+Final images: 6638
+
+GENRE DISTRIBUTION
+--------------------------------------------------
+Action       :  1339 (20.17%)
+Adventure    :   868 (13.08%)
+Comedy       :  2895 (43.61%)
+Crime        :  1175 (17.70%)
+Drama        :  3617 (54.49%)
+Horror       :   502 (7.56%)
+Romance      :  1331 (20.05%)
+Thriller     :   916 (13.80%)
+
+MULTI-LABEL DISTRIBUTION
+--------------------------------------------------
+Exactly 1 genre : 2112
+Exactly 2 genres: 3047
+Exactly 3 genres: 1479
+4+ genres      : 0
+
+DATASET STATUS
+Images copied successfully: YES
+Missing images: 0
+Duplicate image IDs: 0
+Zero-label records: 0

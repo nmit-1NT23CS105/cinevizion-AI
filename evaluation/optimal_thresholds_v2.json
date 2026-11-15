@@ -1,0 +1,10 @@
+{
+    "Action": 0.5,
+    "Adventure": 0.6,
+    "Comedy": 0.46,
+    "Crime": 0.45,
+    "Drama": 0.34,
+    "Horror": 0.85,
+    "Romance": 0.52,
+    "Thriller": 0.52
+}

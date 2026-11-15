@@ -1,0 +1,100 @@
+CINEVISION AI
+STEP 9 — VISUALIZATION AND ERROR ANALYSIS REPORT
+======================================================================
+
+1. BEST PERFORMING GENRE
+--------------------------------------------------
+Genre       : Drama
+Precision   : 0.6202
+Recall      : 0.8978
+F1          : 0.7336
+ROC-AUC     : 0.7063
+PR-AUC      : 0.7433
+
+2. WEAKEST PERFORMING GENRE
+--------------------------------------------------
+Genre       : Horror
+Precision   : 0.4390
+Recall      : 0.3600
+F1          : 0.3956
+ROC-AUC     : 0.8720
+PR-AUC      : 0.4218
+
+3. GENRE PERFORMANCE RANKING
+--------------------------------------------------
+1. Drama: F1=0.7336, Precision=0.6202, Recall=0.8978, ROC-AUC=0.7063, PR-AUC=0.7433
+2. Comedy: F1=0.7298, Precision=0.7285, Recall=0.7310, ROC-AUC=0.8369, PR-AUC=0.7968
+3. Action: F1=0.5497, Precision=0.4234, Recall=0.7836, ROC-AUC=0.8212, PR-AUC=0.5576
+4. Romance: F1=0.4688, Precision=0.3586, Recall=0.6767, ROC-AUC=0.7559, PR-AUC=0.4263
+5. Adventure: F1=0.4672, Precision=0.3631, Recall=0.6552, ROC-AUC=0.8035, PR-AUC=0.4885
+6. Crime: F1=0.4202, Precision=0.3138, Recall=0.6356, ROC-AUC=0.7092, PR-AUC=0.3347
+7. Thriller: F1=0.4096, Precision=0.2833, Recall=0.7391, ROC-AUC=0.7670, PR-AUC=0.3140
+8. Horror: F1=0.3956, Precision=0.4390, Recall=0.3600, ROC-AUC=0.8720, PR-AUC=0.4218
+
+4. ERROR CATEGORY DISTRIBUTION
+--------------------------------------------------
+Partial Match: 560 (84.72%)
+Exact Match: 56 (8.47%)
+All False Positive: 45 (6.81%)
+
+5. FALSE POSITIVE / FALSE NEGATIVE ANALYSIS
+--------------------------------------------------
+Action: TP=105, FP=143, FN=29, TN=384
+Adventure: TP=57, FP=100, FN=30, TN=474
+Comedy: TP=212, FP=79, FN=78, TN=292
+Crime: TP=75, FP=164, FN=43, TN=379
+Drama: TP=325, FP=199, FN=37, TN=100
+Horror: TP=18, FP=23, FN=32, TN=588
+Romance: TP=90, FP=161, FN=43, TN=367
+Thriller: TP=68, FP=172, FN=24, TN=397
+
+6. GENRE-SPECIFIC INTERPRETATION
+--------------------------------------------------
+Drama and Comedy show relatively strong classification performance. Their F1 scores indicate that the model can identify these genres more reliably from poster-level visual information.
+
+Action also demonstrates useful predictive performance, particularly in recall. This indicates that the model can identify many Action posters, although false positives remain.
+
+Crime, Thriller and Horror are more challenging genres. Their visual characteristics can overlap with other genres, which makes fine-grained classification difficult.
+
+Horror requires particular attention because a relatively strong ROC-AUC does not necessarily produce a similarly strong F1 score. This can occur when the model ranks examples reasonably well but probability thresholding is difficult under class imbalance.
+
+7. MULTI-LABEL ERROR INTERPRETATION
+--------------------------------------------------
+CineVision AI is a multi-label classification system. A movie poster can therefore have multiple correct genres simultaneously.
+
+For example, a poster can legitimately belong to Drama, Romance and Thriller at the same time. Therefore, a partial match means that the model correctly identified at least one true genre while missing or adding other genres.
+
+8. VALIDATION-OPTIMIZED THRESHOLDS
+--------------------------------------------------
+The genre-specific probability thresholds were optimized using the validation set only and were locked before evaluating the test set.
+
+Action: 0.51
+Adventure: 0.60
+Comedy: 0.46
+Crime: 0.45
+Drama: 0.34
+Horror: 0.89
+Romance: 0.51
+Thriller: 0.51
+
+9. EVALUATION INTEGRITY
+--------------------------------------------------
+The test set was not used for model training or threshold optimization. The final test evaluation uses the EfficientNetB0 model and thresholds selected using validation data.
+
+10. MODEL LIMITATIONS
+--------------------------------------------------
+1. The dataset contains imbalanced genre distributions.
+
+2. Some genres have considerably fewer training examples than others.
+
+3. Movie posters may share visual characteristics across multiple genres.
+
+4. Metadata-derived labels may not always correspond to visually obvious poster content.
+
+5. Multi-label classification is more difficult than single-label classification because multiple labels may be simultaneously correct.
+
+11. OVERALL CONCLUSION
+--------------------------------------------------
+The EfficientNetB0 transfer-learning model provides a meaningful solution for multi-label movie genre prediction from poster images. The model demonstrates useful ranking and classification performance across the eight target genres.
+
+The visualization and error analysis provide additional evidence for understanding model strengths, weaknesses, false positives, false negatives and uncertain predictions.

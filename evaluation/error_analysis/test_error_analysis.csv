@@ -1,0 +1,662 @@
+image_id,true_labels,predicted_labels,num_true_labels,num_predicted_labels,correct_labels,error_category
+tt0085334,Comedy,"Adventure, Comedy",1,2,1,Partial Match
+tt0085412,"Comedy, Crime","Comedy, Drama, Romance",2,3,1,Partial Match
+tt0085450,Comedy,"Comedy, Romance",1,2,1,Partial Match
+tt0085995,"Adventure, Comedy","Action, Adventure, Comedy",2,3,2,Partial Match
+tt0086034,"Action, Adventure, Thriller","Action, Comedy, Crime, Drama, Romance",3,5,1,Partial Match
+tt0086383,"Action, Thriller","Action, Crime, Drama, Thriller",2,4,2,Partial Match
+tt0086510,Drama,"Action, Adventure, Comedy, Drama",1,4,1,Partial Match
+tt0086567,Thriller,"Action, Drama, Thriller",1,3,1,Partial Match
+tt0086960,"Action, Comedy, Crime","Action, Drama, Thriller",3,3,1,Partial Match
+tt0086993,"Action, Adventure, Drama","Action, Crime, Drama, Thriller",3,4,2,Partial Match
+tt0087054,"Comedy, Drama, Romance","Action, Crime, Drama, Thriller",3,4,1,Partial Match
+tt0087089,"Crime, Drama","Action, Drama, Thriller",2,3,1,Partial Match
+tt0087425,"Comedy, Romance","Adventure, Comedy, Crime",2,3,1,Partial Match
+tt0087469,"Action, Adventure","Action, Adventure, Drama",2,3,2,Partial Match
+tt0087980,"Drama, Romance","Drama, Romance",2,2,2,Exact Match
+tt0088024,"Action, Crime","Action, Crime, Drama, Thriller",2,4,2,Partial Match
+tt0088103,Adventure,"Action, Adventure",1,2,1,Partial Match
+tt0088117,"Horror, Thriller","Drama, Romance",2,2,0,All False Positive
+tt0088146,"Crime, Drama","Drama, Romance",2,2,1,Partial Match
+tt0088184,"Comedy, Drama","Action, Crime, Drama, Thriller",2,4,1,Partial Match
+tt0088213,"Drama, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0088242,"Comedy, Drama","Adventure, Drama",2,2,1,Partial Match
+tt0088765,Comedy,Comedy,1,1,1,Exact Match
+tt0089126,"Comedy, Drama","Adventure, Comedy, Romance",2,3,1,Partial Match
+tt0089208,"Comedy, Romance",Comedy,2,1,1,Partial Match
+tt0089560,Drama,"Adventure, Drama, Romance",1,3,1,Partial Match
+tt0089839,Comedy,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0089885,"Comedy, Horror","Action, Comedy, Crime, Drama",2,4,1,Partial Match
+tt0089893,"Action, Adventure","Action, Adventure, Crime",2,3,2,Partial Match
+tt0089927,Drama,"Drama, Romance",1,2,1,Partial Match
+tt0090036,"Comedy, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0090270,"Drama, Romance","Drama, Romance, Thriller",2,3,2,Partial Match
+tt0090305,"Comedy, Romance","Drama, Romance",2,2,1,Partial Match
+tt0090329,"Crime, Drama, Romance","Action, Crime, Drama, Thriller",3,4,2,Partial Match
+tt0090904,"Action, Crime, Thriller","Action, Crime, Drama, Thriller",3,4,3,Partial Match
+tt0091051,"Action, Comedy, Crime","Action, Comedy, Crime, Drama, Romance",3,5,3,Partial Match
+tt0091313,"Action, Drama, Thriller","Action, Comedy, Crime, Drama",3,4,2,Partial Match
+tt0091344,"Action, Adventure, Horror","Action, Adventure, Horror, Thriller",3,4,3,Partial Match
+tt0091603,"Action, Drama","Action, Crime, Drama, Thriller",2,4,2,Partial Match
+tt0091630,"Comedy, Horror","Action, Crime, Drama, Thriller",2,4,0,All False Positive
+tt0091886,"Drama, Thriller",Drama,2,1,1,Partial Match
+tt0092205,Adventure,"Crime, Drama, Horror, Thriller",1,4,0,All False Positive
+tt0092615,Adventure,"Action, Adventure",1,2,1,Partial Match
+tt0092632,"Crime, Drama, Horror","Crime, Drama, Thriller",3,3,2,Partial Match
+tt0092666,"Comedy, Romance","Comedy, Crime, Drama, Romance",2,4,2,Partial Match
+tt0092752,"Adventure, Comedy","Action, Adventure, Comedy",2,3,2,Partial Match
+tt0092965,Drama,"Adventure, Drama, Romance",1,3,1,Partial Match
+tt0092974,Comedy,"Action, Adventure, Comedy",1,3,1,Partial Match
+tt0093036,"Drama, Thriller","Action, Adventure",2,2,0,All False Positive
+tt0093058,Drama,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0093072,"Adventure, Comedy","Comedy, Drama",2,2,1,Partial Match
+tt0093075,Horror,"Action, Adventure",1,2,0,All False Positive
+tt0093145,"Comedy, Crime, Romance","Action, Crime, Drama, Thriller",3,4,1,Partial Match
+tt0093409,"Action, Crime, Thriller","Action, Crime, Drama, Thriller",3,4,3,Partial Match
+tt0093512,"Drama, Romance","Crime, Drama, Romance",2,3,2,Partial Match
+tt0093589,"Comedy, Horror","Drama, Romance, Thriller",2,3,0,All False Positive
+tt0093605,"Action, Crime, Drama","Action, Adventure, Crime, Horror, Thriller",3,5,2,Partial Match
+tt0093626,"Horror, Thriller","Action, Adventure, Horror, Thriller",2,4,2,Partial Match
+tt0093693,"Comedy, Romance","Comedy, Romance",2,2,2,Exact Match
+tt0093870,"Action, Crime","Action, Adventure, Drama",2,3,1,Partial Match
+tt0094071,Drama,"Action, Adventure, Comedy, Drama, Thriller",1,5,1,Partial Match
+tt0094332,"Comedy, Horror","Drama, Horror, Thriller",2,3,1,Partial Match
+tt0094602,"Action, Crime, Drama","Action, Crime, Drama, Thriller",3,4,3,Partial Match
+tt0094739,Comedy,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0094827,"Drama, Thriller","Action, Adventure, Crime, Drama",2,4,1,Partial Match
+tt0094882,Drama,"Drama, Romance",1,2,1,Partial Match
+tt0094894,"Action, Crime, Drama","Comedy, Drama, Romance",3,3,1,Partial Match
+tt0094907,Comedy,"Adventure, Comedy",1,2,1,Partial Match
+tt0094963,"Action, Crime","Crime, Drama, Thriller",2,3,1,Partial Match
+tt0095119,"Drama, Romance","Adventure, Comedy, Drama, Romance",2,4,2,Partial Match
+tt0095169,"Comedy, Drama, Romance","Drama, Romance",3,2,2,Partial Match
+tt0095382,"Action, Drama, Romance","Action, Adventure, Drama",3,3,2,Partial Match
+tt0095428,"Crime, Drama, Romance","Crime, Drama, Romance, Thriller",3,4,3,Partial Match
+tt0095927,"Comedy, Drama, Romance","Comedy, Crime, Drama, Romance",3,4,3,Partial Match
+tt0095963,"Action, Comedy, Crime","Action, Comedy, Crime, Drama, Thriller",3,5,3,Partial Match
+tt0096037,"Comedy, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0096098,"Action, Adventure, Crime","Action, Crime, Drama, Romance, Thriller",3,5,2,Partial Match
+tt0096203,"Comedy, Crime","Action, Crime, Drama",2,3,1,Partial Match
+tt0096211,"Action, Thriller","Action, Crime, Drama, Romance, Thriller",2,5,2,Partial Match
+tt0096289,"Comedy, Drama, Romance","Comedy, Drama, Romance",3,3,3,Exact Match
+tt0096378,"Adventure, Comedy, Romance","Comedy, Crime, Drama, Thriller",3,4,1,Partial Match
+tt0096446,"Action, Adventure, Drama","Action, Adventure, Drama, Thriller",3,4,3,Partial Match
+tt0096463,"Comedy, Drama, Romance","Comedy, Drama, Romance",3,3,3,Exact Match
+tt0096466,Comedy,"Action, Adventure, Comedy",1,3,1,Partial Match
+tt0096657,Comedy,"Crime, Drama",1,2,0,All False Positive
+tt0096787,"Comedy, Drama","Adventure, Comedy",2,2,1,Partial Match
+tt0096969,Drama,"Action, Crime, Drama, Thriller",1,4,1,Partial Match
+tt0096976,"Adventure, Comedy","Action, Adventure, Comedy",2,3,2,Partial Match
+tt0097179,"Action, Horror","Adventure, Comedy, Drama",2,3,0,All False Positive
+tt0097424,"Comedy, Drama",Drama,2,1,1,Partial Match
+tt0097647,"Action, Drama","Action, Drama, Romance, Thriller",2,4,2,Partial Match
+tt0097815,Comedy,"Adventure, Comedy",1,2,1,Partial Match
+tt0097967,"Action, Crime, Thriller","Action, Crime, Drama, Thriller",3,4,3,Partial Match
+tt0098188,"Action, Crime, Drama","Action, Crime, Drama, Thriller",3,4,3,Partial Match
+tt0098442,"Comedy, Drama","Action, Adventure, Comedy, Drama",2,4,2,Partial Match
+tt0098503,"Comedy, Horror","Action, Comedy, Drama",2,3,1,Partial Match
+tt0098554,Comedy,"Action, Comedy, Crime, Romance",1,4,1,Partial Match
+tt0098621,"Comedy, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0098627,Comedy,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0099128,"Comedy, Romance",Comedy,2,1,1,Partial Match
+tt0099173,Horror,"Action, Comedy, Crime, Horror, Thriller",1,5,1,Partial Match
+tt0099520,"Drama, Thriller","Crime, Drama, Thriller",2,3,2,Partial Match
+tt0099691,Drama,"Comedy, Crime, Drama, Romance",1,4,1,Partial Match
+tt0099797,"Crime, Drama, Romance","Drama, Romance",3,2,2,Partial Match
+tt0099938,"Action, Comedy, Crime","Comedy, Romance",3,2,1,Partial Match
+tt0100046,Drama,"Drama, Romance, Thriller",1,3,1,Partial Match
+tt0100232,"Action, Adventure, Thriller","Action, Adventure, Crime, Drama, Thriller",3,5,3,Partial Match
+tt0100395,"Comedy, Drama","Comedy, Crime, Drama, Romance",2,4,2,Partial Match
+tt0100403,"Action, Horror","Action, Crime, Horror, Thriller",2,4,2,Partial Match
+tt0100449,"Comedy, Crime",Comedy,2,1,1,Partial Match
+tt0100475,"Comedy, Horror","Comedy, Drama, Romance",2,3,1,Partial Match
+tt0100530,"Drama, Romance, Thriller","Action, Crime, Drama, Thriller",3,4,2,Partial Match
+tt0100802,Action,"Crime, Drama, Thriller",1,3,0,All False Positive
+tt0100822,"Comedy, Romance","Comedy, Crime, Drama, Romance",2,4,2,Partial Match
+tt0101272,Comedy,"Crime, Drama, Horror",1,3,0,All False Positive
+tt0101590,"Drama, Thriller","Action, Crime, Drama, Thriller",2,4,2,Partial Match
+tt0101605,"Comedy, Drama","Adventure, Comedy, Crime, Drama, Romance",2,5,2,Partial Match
+tt0101635,"Comedy, Drama","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0101787,"Drama, Romance","Action, Adventure, Crime, Drama",2,4,1,Partial Match
+tt0102065,"Comedy, Drama","Adventure, Comedy",2,2,1,Partial Match
+tt0102138,"Drama, Thriller","Action, Adventure, Crime, Drama",2,4,1,Partial Match
+tt0102175,"Drama, Romance","Comedy, Crime",2,2,0,All False Positive
+tt0102593,"Action, Crime, Drama","Comedy, Drama, Romance",3,3,1,Partial Match
+tt0102598,"Comedy, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0102655,"Action, Crime, Drama","Action, Adventure, Crime, Drama, Thriller",3,5,3,Partial Match
+tt0102690,"Comedy, Horror","Crime, Drama, Horror, Thriller",2,4,1,Partial Match
+tt0102951,"Comedy, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0103594,"Adventure, Drama","Action, Adventure, Drama",2,3,2,Partial Match
+tt0104237,"Drama, Romance","Crime, Drama, Thriller",2,3,1,Partial Match
+tt0104254,Adventure,"Action, Adventure, Comedy",1,3,1,Partial Match
+tt0104409,Horror,"Adventure, Thriller",1,2,0,All False Positive
+tt0104549,"Crime, Drama","Crime, Drama, Thriller",2,3,2,Partial Match
+tt0104691,"Action, Adventure, Drama","Action, Crime, Drama, Thriller",3,4,2,Partial Match
+tt0104695,"Comedy, Drama, Romance","Action, Adventure, Drama, Thriller",3,4,1,Partial Match
+tt0104897,"Action, Comedy, Crime","Comedy, Drama, Romance",3,3,1,Partial Match
+tt0104990,Drama,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0105104,"Action, Crime, Thriller","Action, Crime, Drama, Thriller",3,4,3,Partial Match
+tt0105191,"Drama, Romance","Action, Adventure, Drama, Thriller",2,4,1,Partial Match
+tt0105236,"Crime, Thriller","Crime, Drama, Thriller",2,3,2,Partial Match
+tt0105562,Drama,"Action, Adventure, Crime, Drama, Thriller",1,5,1,Partial Match
+tt0106375,"Comedy, Romance","Action, Adventure, Comedy, Drama, Romance",2,5,2,Partial Match
+tt0106941,"Comedy, Drama, Romance","Comedy, Drama, Romance",3,3,3,Exact Match
+tt0107004,Drama,"Action, Adventure, Comedy, Drama",1,4,1,Partial Match
+tt0107362,"Action, Adventure, Comedy","Action, Comedy",3,2,2,Partial Match
+tt0107611,"Drama, Romance","Drama, Romance",2,2,2,Exact Match
+tt0107613,"Comedy, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0107630,Drama,"Drama, Romance",1,2,1,Partial Match
+tt0107665,"Crime, Drama","Adventure, Crime, Drama",2,3,2,Partial Match
+tt0107711,"Action, Crime, Drama","Action, Crime, Drama, Thriller",3,4,3,Partial Match
+tt0107985,Comedy,"Comedy, Romance",1,2,1,Partial Match
+tt0108002,Drama,"Comedy, Drama",1,2,1,Partial Match
+tt0108071,Drama,"Adventure, Drama",1,2,1,Partial Match
+tt0108160,"Comedy, Drama, Romance","Action, Crime, Drama, Thriller",3,4,1,Partial Match
+tt0108171,"Action, Drama, Thriller","Action, Adventure, Drama",3,3,2,Partial Match
+tt0108187,Comedy,"Action, Comedy, Crime",1,3,1,Partial Match
+tt0108238,"Action, Crime","Drama, Romance",2,2,0,All False Positive
+tt0108255,"Adventure, Comedy","Action, Adventure, Comedy",2,3,2,Partial Match
+tt0108308,"Action, Adventure, Comedy","Adventure, Comedy",3,2,2,Partial Match
+tt0108451,"Comedy, Drama, Romance","Comedy, Drama, Romance",3,3,3,Exact Match
+tt0108550,"Drama, Romance","Drama, Romance",2,2,2,Exact Match
+tt0109443,Comedy,"Comedy, Romance",1,2,1,Partial Match
+tt0109493,"Action, Comedy, Crime","Crime, Drama",3,2,1,Partial Match
+tt0109813,Comedy,"Adventure, Comedy",1,2,1,Partial Match
+tt0109951,"Comedy, Drama","Comedy, Crime, Drama",2,3,2,Partial Match
+tt0110064,"Comedy, Romance",Comedy,2,1,1,Partial Match
+tt0110115,Drama,"Action, Crime, Drama, Romance",1,4,1,Partial Match
+tt0110116,Drama,Drama,1,1,1,Exact Match
+tt0110157,Adventure,"Action, Adventure, Drama, Thriller",1,4,1,Partial Match
+tt0110413,"Crime, Drama, Thriller","Crime, Drama, Horror, Thriller",3,4,3,Partial Match
+tt0110455,"Comedy, Drama","Comedy, Crime, Drama, Romance",2,4,2,Partial Match
+tt0110649,"Comedy, Drama","Comedy, Romance",2,2,1,Partial Match
+tt0110684,"Comedy, Drama",Drama,2,1,1,Partial Match
+tt0110912,"Crime, Drama","Action, Comedy, Crime, Drama, Romance",2,5,2,Partial Match
+tt0110944,"Action, Adventure, Drama","Action, Adventure, Drama, Thriller",3,4,3,Partial Match
+tt0110955,"Comedy, Crime, Drama","Comedy, Crime, Romance",3,3,2,Partial Match
+tt0111102,Drama,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0111218,"Comedy, Drama","Crime, Drama, Romance, Thriller",2,4,1,Partial Match
+tt0111323,"Action, Adventure, Crime","Action, Crime, Drama, Horror, Thriller",3,5,2,Partial Match
+tt0111438,"Action, Crime","Action, Adventure, Crime, Thriller",2,4,2,Partial Match
+tt0111477,"Adventure, Comedy, Crime","Comedy, Drama",3,2,1,Partial Match
+tt0111507,Drama,"Drama, Romance",1,2,1,Partial Match
+tt0112642,Comedy,"Action, Adventure",1,2,0,All False Positive
+tt0112715,"Action, Adventure","Adventure, Drama, Thriller",2,3,1,Partial Match
+tt0113028,Adventure,"Adventure, Comedy, Drama, Romance",1,4,1,Partial Match
+tt0113044,"Crime, Drama","Crime, Drama",2,2,2,Exact Match
+tt0113118,"Comedy, Drama","Action, Comedy, Crime, Drama, Romance",2,5,2,Partial Match
+tt0113133,"Comedy, Drama","Action, Comedy, Drama",2,3,2,Partial Match
+tt0113161,"Comedy, Crime, Thriller","Crime, Drama, Thriller",3,3,2,Partial Match
+tt0113253,"Horror, Thriller","Action, Crime, Drama, Horror, Thriller",2,5,2,Partial Match
+tt0113362,"Adventure, Drama, Romance","Drama, Romance",3,2,2,Partial Match
+tt0113442,"Comedy, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0113464,"Comedy, Drama","Action, Crime, Drama, Thriller",2,4,1,Partial Match
+tt0113501,"Action, Crime, Drama","Action, Crime, Drama, Thriller",3,4,3,Partial Match
+tt0113612,"Comedy, Drama","Drama, Romance",2,2,1,Partial Match
+tt0113627,"Drama, Romance","Comedy, Drama",2,2,1,Partial Match
+tt0113690,"Horror, Thriller","Adventure, Drama, Horror, Thriller",2,4,2,Partial Match
+tt0114057,"Drama, Romance","Crime, Drama, Thriller",2,3,1,Partial Match
+tt0114214,"Action, Thriller","Action, Crime, Drama, Thriller",2,4,2,Partial Match
+tt0114323,Drama,"Action, Adventure, Drama",1,3,1,Partial Match
+tt0114571,"Comedy, Drama","Comedy, Romance",2,2,1,Partial Match
+tt0114608,"Action, Horror, Thriller","Adventure, Drama, Horror, Thriller",3,4,2,Partial Match
+tt0114681,"Comedy, Crime, Drama","Drama, Romance, Thriller",3,3,1,Partial Match
+tt0114857,"Action, Crime","Action, Adventure, Crime, Drama, Thriller",2,5,2,Partial Match
+tt0114924,"Comedy, Drama, Romance","Action, Crime, Drama, Romance, Thriller",3,5,2,Partial Match
+tt0114928,"Drama, Thriller","Action, Crime, Drama, Thriller",2,4,2,Partial Match
+tt0115837,"Drama, Romance","Crime, Drama, Horror, Thriller",2,4,1,Partial Match
+tt0115907,"Drama, Thriller","Action, Comedy, Crime, Drama, Thriller",2,5,2,Partial Match
+tt0116151,"Adventure, Comedy","Adventure, Comedy, Crime",2,3,2,Partial Match
+tt0116289,"Comedy, Crime, Drama","Crime, Drama, Romance, Thriller",3,4,2,Partial Match
+tt0116313,Comedy,"Comedy, Romance",1,2,1,Partial Match
+tt0116361,"Comedy, Crime, Drama","Action, Crime, Drama, Romance, Thriller",3,5,2,Partial Match
+tt0116583,Drama,"Comedy, Drama",1,2,1,Partial Match
+tt0116606,"Comedy, Romance","Comedy, Crime, Drama, Romance",2,4,2,Partial Match
+tt0116745,"Crime, Drama",Drama,2,1,1,Partial Match
+tt0117038,"Comedy, Drama","Drama, Romance",2,2,1,Partial Match
+tt0117110,"Action, Adventure, Comedy","Adventure, Comedy",3,2,2,Partial Match
+tt0117473,Thriller,"Drama, Romance, Thriller",1,3,1,Partial Match
+tt0117550,Comedy,"Action, Comedy",1,2,1,Partial Match
+tt0117571,Horror,"Drama, Horror, Thriller",1,3,1,Partial Match
+tt0117791,"Drama, Romance","Action, Adventure, Drama",2,3,1,Partial Match
+tt0117958,"Comedy, Drama","Comedy, Crime, Drama, Romance",2,4,2,Partial Match
+tt0118586,"Crime, Drama, Romance","Comedy, Drama",3,2,1,Partial Match
+tt0118607,Drama,"Comedy, Crime, Drama",1,3,1,Partial Match
+tt0118708,"Action, Comedy",Comedy,2,1,1,Partial Match
+tt0118783,Drama,"Comedy, Drama",1,2,1,Partial Match
+tt0118842,"Comedy, Drama, Romance","Action, Crime, Drama, Romance, Thriller",3,5,2,Partial Match
+tt0118927,"Action, Crime, Drama","Action, Crime, Drama, Horror, Thriller",3,5,3,Partial Match
+tt0119013,"Action, Comedy","Action, Adventure, Comedy",2,3,2,Partial Match
+tt0119086,"Action, Comedy, Crime","Comedy, Crime, Drama, Romance",3,4,2,Partial Match
+tt0119196,Thriller,"Action, Crime, Drama, Thriller",1,4,1,Partial Match
+tt0119209,"Comedy, Drama","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0119217,Drama,"Crime, Drama",1,2,1,Partial Match
+tt0119313,"Drama, Romance","Drama, Romance",2,2,2,Exact Match
+tt0119381,"Drama, Romance","Drama, Romance",2,2,2,Exact Match
+tt0119396,"Crime, Drama, Thriller","Action, Crime, Drama, Thriller",3,4,3,Partial Match
+tt0119467,"Crime, Drama, Thriller","Crime, Drama",3,2,2,Partial Match
+tt0119484,"Action, Adventure","Action, Crime, Drama, Horror, Thriller",2,5,1,Partial Match
+tt0119607,Drama,"Action, Drama, Thriller",1,3,1,Partial Match
+tt0119654,Comedy,"Action, Crime, Drama, Thriller",1,4,0,All False Positive
+tt0119731,"Action, Crime, Drama","Action, Crime, Drama, Thriller",3,4,3,Partial Match
+tt0119809,"Comedy, Drama","Comedy, Romance",2,2,1,Partial Match
+tt0119951,"Comedy, Drama","Comedy, Crime, Drama, Romance",2,4,2,Partial Match
+tt0119988,"Crime, Drama, Thriller","Drama, Romance, Thriller",3,3,2,Partial Match
+tt0120070,Drama,"Action, Drama, Thriller",1,3,1,Partial Match
+tt0120133,Comedy,"Adventure, Comedy, Romance",1,3,1,Partial Match
+tt0120202,"Comedy, Drama","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0120338,"Drama, Romance","Drama, Romance",2,2,2,Exact Match
+tt0120347,"Action, Adventure, Thriller","Action, Crime, Drama, Thriller",3,4,2,Partial Match
+tt0120363,"Adventure, Comedy","Adventure, Comedy",2,2,2,Exact Match
+tt0120458,"Action, Horror, Thriller","Drama, Thriller",3,2,1,Partial Match
+tt0120490,Drama,"Action, Crime, Drama, Thriller",1,4,1,Partial Match
+tt0120618,Comedy,"Comedy, Crime, Drama",1,3,1,Partial Match
+tt0120620,"Drama, Thriller","Crime, Drama, Thriller",2,3,2,Partial Match
+tt0120643,"Drama, Romance","Crime, Drama, Romance",2,3,2,Partial Match
+tt0120660,"Action, Crime, Drama","Crime, Drama, Romance, Thriller",3,4,2,Partial Match
+tt0120699,"Drama, Romance","Drama, Romance",2,2,2,Exact Match
+tt0120716,"Comedy, Drama","Action, Adventure, Crime, Drama, Thriller",2,5,1,Partial Match
+tt0120762,Adventure,"Action, Comedy, Crime, Drama",1,4,0,All False Positive
+tt0120764,Comedy,"Action, Adventure, Comedy",1,3,1,Partial Match
+tt0120775,"Action, Drama","Action, Drama, Thriller",2,3,2,Partial Match
+tt0120788,"Drama, Romance","Drama, Romance",2,2,2,Exact Match
+tt0120791,"Comedy, Drama","Drama, Romance",2,2,1,Partial Match
+tt0120797,"Comedy, Drama, Romance","Drama, Thriller",3,2,1,Partial Match
+tt0120823,Comedy,Comedy,1,1,1,Exact Match
+tt0120873,"Action, Crime, Thriller","Action, Crime, Drama",3,3,2,Partial Match
+tt0120901,"Action, Comedy, Thriller","Action, Comedy, Crime, Drama",3,4,2,Partial Match
+tt0120917,"Adventure, Comedy","Comedy, Romance",2,2,1,Partial Match
+tt0122933,"Comedy, Crime","Comedy, Drama, Romance",2,3,1,Partial Match
+tt0123209,"Comedy, Drama, Romance","Crime, Drama, Romance",3,3,2,Partial Match
+tt0124901,"Action, Comedy, Crime","Comedy, Crime, Drama, Romance",3,4,2,Partial Match
+tt0126029,"Adventure, Comedy","Action, Adventure, Comedy",2,3,2,Partial Match
+tt0126604,"Comedy, Drama","Action, Comedy, Crime, Drama",2,4,2,Partial Match
+tt0127247,Drama,Drama,1,1,1,Exact Match
+tt0127349,"Drama, Romance",Drama,2,1,1,Partial Match
+tt0127722,"Crime, Drama, Thriller","Action, Adventure, Comedy, Drama",3,4,1,Partial Match
+tt0129290,"Comedy, Drama","Comedy, Romance",2,2,1,Partial Match
+tt0130121,"Comedy, Crime, Romance","Comedy, Crime, Drama, Romance",3,4,3,Partial Match
+tt0131646,"Action, Adventure","Action, Adventure",2,2,2,Exact Match
+tt0132245,"Action, Drama","Action, Adventure, Comedy",2,3,1,Partial Match
+tt0133046,"Comedy, Thriller","Crime, Drama, Thriller",2,3,1,Partial Match
+tt0137523,Drama,"Comedy, Crime, Drama",1,3,1,Partial Match
+tt0138704,"Drama, Thriller","Crime, Drama, Thriller",2,3,2,Partial Match
+tt0141399,"Comedy, Romance","Comedy, Romance",2,2,2,Exact Match
+tt0141907,"Comedy, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0142201,"Comedy, Crime, Drama","Comedy, Drama, Romance",3,3,2,Partial Match
+tt0144640,"Comedy, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0146838,Drama,"Adventure, Comedy",1,2,0,All False Positive
+tt0146984,Drama,"Drama, Romance",1,2,1,Partial Match
+tt0147004,"Comedy, Drama","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0148421,Drama,"Adventure, Drama",1,2,1,Partial Match
+tt0152836,Romance,"Action, Comedy, Crime, Drama, Romance, Thriller",1,6,1,Partial Match
+tt0153464,"Drama, Romance","Action, Drama, Thriller",2,3,1,Partial Match
+tt0157472,"Action, Adventure, Comedy","Action, Adventure, Comedy",3,3,3,Exact Match
+tt0159273,"Action, Drama","Action, Adventure, Crime, Drama, Thriller",2,5,2,Partial Match
+tt0162983,"Comedy, Drama","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0163983,"Crime, Drama, Horror","Action, Crime, Drama, Horror, Thriller",3,5,3,Partial Match
+tt0164085,"Adventure, Drama, Thriller","Drama, Romance",3,2,1,Partial Match
+tt0164181,"Horror, Thriller","Action, Crime, Drama, Thriller",2,4,1,Partial Match
+tt0164912,"Adventure, Comedy",Comedy,2,1,1,Partial Match
+tt0165494,Comedy,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0166195,"Comedy, Drama","Action, Crime, Drama, Thriller",2,4,1,Partial Match
+tt0166896,Drama,"Crime, Drama",1,2,1,Partial Match
+tt0167261,"Action, Adventure, Drama","Action, Adventure, Drama, Thriller",3,4,3,Partial Match
+tt0167423,Comedy,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0168172,"Action, Comedy","Action, Comedy, Crime, Thriller",2,4,2,Partial Match
+tt0171356,"Comedy, Crime, Romance","Crime, Drama, Thriller",3,3,1,Partial Match
+tt0172396,"Drama, Romance","Adventure, Drama",2,2,1,Partial Match
+tt0175142,Comedy,"Comedy, Romance",1,2,1,Partial Match
+tt0179626,"Action, Crime, Drama","Action, Crime, Drama, Thriller",3,4,3,Partial Match
+tt0180073,Drama,"Drama, Romance",1,2,1,Partial Match
+tt0181733,Drama,"Drama, Thriller",1,2,1,Partial Match
+tt0181875,"Adventure, Comedy, Drama","Drama, Romance",3,2,1,Partial Match
+tt0181984,"Crime, Drama, Thriller","Comedy, Drama, Thriller",3,3,2,Partial Match
+tt0182508,Drama,"Crime, Drama, Thriller",1,3,1,Partial Match
+tt0185014,"Comedy, Drama","Crime, Drama, Romance, Thriller",2,4,1,Partial Match
+tt0185711,Comedy,"Comedy, Drama",1,2,1,Partial Match
+tt0186589,"Comedy, Crime",Drama,2,1,0,All False Positive
+tt0187738,"Action, Horror","Action, Adventure, Drama",2,3,1,Partial Match
+tt0190138,"Comedy, Crime","Comedy, Crime, Drama, Romance",2,4,2,Partial Match
+tt0190255,Drama,Drama,1,1,1,Exact Match
+tt0191754,"Comedy, Drama","Drama, Romance",2,2,1,Partial Match
+tt0202402,"Comedy, Drama, Romance","Comedy, Crime, Drama, Romance",3,4,3,Partial Match
+tt0203755,"Comedy, Crime","Comedy, Crime, Drama, Romance, Thriller",2,5,2,Partial Match
+tt0204137,"Crime, Drama","Crime, Drama, Romance",2,3,2,Partial Match
+tt0205000,"Comedy, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0213790,Comedy,"Comedy, Crime, Drama, Romance",1,4,1,Partial Match
+tt0216216,Action,"Action, Crime, Thriller",1,3,1,Partial Match
+tt0216707,"Drama, Romance","Comedy, Romance",2,2,1,Partial Match
+tt0221013,Drama,"Drama, Romance",1,2,1,Partial Match
+tt0223828,"Adventure, Comedy","Comedy, Drama, Romance",2,3,1,Partial Match
+tt0228750,"Action, Drama, Thriller","Action, Crime, Drama, Thriller",3,4,3,Partial Match
+tt0230600,"Horror, Thriller","Action, Drama, Thriller",2,3,1,Partial Match
+tt0235737,"Crime, Drama","Drama, Thriller",2,2,1,Partial Match
+tt0236493,"Adventure, Comedy, Crime","Comedy, Drama, Romance",3,3,1,Partial Match
+tt0238112,"Drama, Romance","Drama, Romance",2,2,2,Exact Match
+tt0240890,"Comedy, Romance","Crime, Drama, Romance",2,3,1,Partial Match
+tt0241760,Comedy,"Action, Comedy, Crime, Drama, Romance",1,5,1,Partial Match
+tt0242193,"Crime, Drama","Comedy, Crime, Drama, Thriller",2,4,2,Partial Match
+tt0243585,"Adventure, Comedy","Adventure, Comedy",2,2,2,Exact Match
+tt0245844,"Action, Adventure, Drama","Action, Crime, Drama, Thriller",3,4,2,Partial Match
+tt0250415,"Comedy, Drama","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0252076,"Comedy, Drama, Romance","Action, Crime, Drama, Thriller",3,4,1,Partial Match
+tt0252866,"Comedy, Romance","Comedy, Romance",2,2,2,Exact Match
+tt0253556,"Action, Adventure","Action, Adventure",2,2,2,Exact Match
+tt0253798,Comedy,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0254481,"Drama, Romance","Action, Adventure, Horror, Thriller",2,4,0,All False Positive
+tt0257215,"Drama, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0258000,"Crime, Drama, Thriller","Crime, Drama, Horror, Thriller",3,4,3,Partial Match
+tt0258463,"Action, Thriller","Action, Adventure, Crime, Drama, Thriller",2,5,2,Partial Match
+tt0261289,"Comedy, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0262462,"Action, Drama","Action, Crime, Drama, Thriller",2,4,2,Partial Match
+tt0263734,"Comedy, Drama, Romance","Comedy, Romance",3,2,2,Partial Match
+tt0264935,"Crime, Thriller","Drama, Horror, Thriller",2,3,1,Partial Match
+tt0265101,"Drama, Romance","Action, Crime, Drama, Thriller",2,4,1,Partial Match
+tt0266489,Comedy,"Comedy, Romance",1,2,1,Partial Match
+tt0266697,Action,"Action, Crime, Thriller",1,3,1,Partial Match
+tt0268397,"Action, Adventure","Action, Adventure, Comedy",2,3,2,Partial Match
+tt0271027,"Action, Crime, Drama","Action, Crime, Drama, Horror, Thriller",3,5,3,Partial Match
+tt0272152,Drama,"Action, Crime, Drama, Thriller",1,4,1,Partial Match
+tt0273435,Drama,"Drama, Romance, Thriller",1,3,1,Partial Match
+tt0278731,"Drama, Thriller","Adventure, Drama, Horror, Thriller",2,4,2,Partial Match
+tt0280707,Drama,"Comedy, Drama",1,2,1,Partial Match
+tt0280778,"Drama, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0283431,Drama,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0285861,"Crime, Drama, Thriller","Action, Comedy, Crime, Drama",3,4,2,Partial Match
+tt0286244,"Comedy, Drama","Adventure, Comedy, Drama",2,3,2,Partial Match
+tt0291502,"Comedy, Romance","Drama, Romance",2,2,1,Partial Match
+tt0293564,"Action, Comedy, Crime","Action, Crime, Drama, Thriller",3,4,2,Partial Match
+tt0293899,Drama,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0295238,"Drama, Romance","Comedy, Drama, Romance, Thriller",2,4,2,Partial Match
+tt0295715,Comedy,"Comedy, Drama",1,2,1,Partial Match
+tt0296166,"Comedy, Drama","Crime, Drama, Romance, Thriller",2,4,1,Partial Match
+tt0297884,"Drama, Romance",Drama,2,1,1,Partial Match
+tt0311110,"Comedy, Drama, Romance","Comedy, Drama, Romance",3,3,3,Exact Match
+tt0313300,"Adventure, Drama","Adventure, Comedy",2,2,1,Partial Match
+tt0313737,"Comedy, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0314353,"Action, Drama, Thriller","Action, Crime, Drama, Thriller",3,4,3,Partial Match
+tt0316732,"Action, Comedy, Crime","Action, Comedy, Drama, Romance",3,4,2,Partial Match
+tt0317303,Comedy,Comedy,1,1,1,Exact Match
+tt0317640,Comedy,"Crime, Drama",1,2,0,All False Positive
+tt0318997,Drama,"Adventure, Drama, Thriller",1,3,1,Partial Match
+tt0319829,"Comedy, Drama","Crime, Drama",2,2,1,Partial Match
+tt0322589,"Drama, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0324554,"Drama, Romance","Action, Crime, Drama, Romance, Thriller",2,5,2,Partial Match
+tt0325258,Comedy,Drama,1,1,0,All False Positive
+tt0327247,"Comedy, Crime, Thriller","Comedy, Drama, Romance",3,3,1,Partial Match
+tt0329028,Comedy,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0330136,"Comedy, Drama, Romance","Comedy, Drama, Romance",3,3,3,Exact Match
+tt0331952,"Drama, Thriller","Action, Crime, Drama, Romance",2,4,1,Partial Match
+tt0332712,Comedy,"Adventure, Comedy, Crime",1,3,1,Partial Match
+tt0335559,"Comedy, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0337996,Comedy,"Crime, Drama, Thriller",1,3,0,All False Positive
+tt0338135,"Comedy, Crime, Drama","Comedy, Drama",3,2,2,Partial Match
+tt0338216,"Drama, Romance","Drama, Thriller",2,2,1,Partial Match
+tt0338337,Action,"Action, Adventure, Comedy",1,3,1,Partial Match
+tt0339921,Comedy,"Crime, Drama",1,2,0,All False Positive
+tt0343172,"Crime, Drama","Comedy, Drama, Romance",2,3,1,Partial Match
+tt0344510,"Drama, Romance","Drama, Romance, Thriller",2,3,2,Partial Match
+tt0347246,Drama,"Action, Drama",1,2,1,Partial Match
+tt0348150,"Action, Adventure","Adventure, Drama",2,2,1,Partial Match
+tt0361467,Comedy,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0361925,"Comedy, Romance","Comedy, Crime, Drama",2,3,1,Partial Match
+tt0363532,"Drama, Romance, Thriller","Crime, Drama, Romance, Thriller",3,4,3,Partial Match
+tt0364343,"Action, Thriller","Crime, Drama, Thriller",2,3,1,Partial Match
+tt0364751,"Adventure, Comedy","Action, Adventure, Comedy, Drama",2,4,2,Partial Match
+tt0366548,Comedy,"Action, Adventure, Comedy, Drama",1,4,1,Partial Match
+tt0366701,"Comedy, Drama","Drama, Romance",2,2,1,Partial Match
+tt0369672,Drama,"Crime, Drama, Thriller",1,3,1,Partial Match
+tt0376649,"Crime, Thriller","Drama, Thriller",2,2,1,Partial Match
+tt0377744,"Comedy, Drama",Comedy,2,1,1,Partial Match
+tt0379713,"Action, Adventure","Drama, Thriller",2,2,0,All False Positive
+tt0385004,"Action, Adventure, Drama","Action, Adventure, Romance",3,3,2,Partial Match
+tt0402595,Comedy,"Adventure, Drama",1,2,0,All False Positive
+tt0402743,"Horror, Thriller","Adventure, Drama, Horror, Thriller",2,4,2,Partial Match
+tt0410297,"Drama, Romance","Crime, Drama, Romance, Thriller",2,4,2,Partial Match
+tt0415965,"Comedy, Drama","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0418362,"Comedy, Romance","Comedy, Romance",2,2,2,Exact Match
+tt0421073,"Action, Crime, Drama","Action, Comedy, Crime, Drama",3,4,3,Partial Match
+tt0421082,Drama,"Action, Crime, Drama, Thriller",1,4,1,Partial Match
+tt0421206,"Crime, Drama","Action, Crime, Drama, Romance, Thriller",2,5,2,Partial Match
+tt0421729,"Comedy, Crime","Comedy, Drama, Romance",2,3,1,Partial Match
+tt0422029,Drama,"Crime, Drama, Thriller",1,3,1,Partial Match
+tt0422774,"Comedy, Drama",Comedy,2,1,1,Partial Match
+tt0422783,"Comedy, Drama","Comedy, Drama, Romance",2,3,2,Partial Match
+tt0424993,"Comedy, Romance","Action, Comedy, Drama",2,3,1,Partial Match
+tt0425430,"Drama, Horror, Thriller","Drama, Horror, Thriller",3,3,3,Exact Match
+tt0426931,Drama,"Action, Drama",1,2,1,Partial Match
+tt0427482,"Comedy, Drama","Crime, Drama, Thriller",2,3,1,Partial Match
+tt0433442,"Horror, Thriller","Drama, Horror, Thriller",2,3,2,Partial Match
+tt0435434,"Comedy, Drama","Comedy, Romance",2,2,1,Partial Match
+tt0439815,"Comedy, Horror","Drama, Romance, Thriller",2,3,0,All False Positive
+tt0441909,"Comedy, Crime, Drama","Drama, Romance, Thriller",3,3,1,Partial Match
+tt0443274,"Action, Crime, Drama","Action, Comedy, Drama, Thriller",3,4,2,Partial Match
+tt0449467,Drama,"Action, Crime, Drama, Thriller",1,4,1,Partial Match
+tt0449999,Drama,"Drama, Romance",1,2,1,Partial Match
+tt0450232,"Action, Crime, Drama","Action, Comedy, Crime, Drama, Thriller",3,5,3,Partial Match
+tt0450259,"Adventure, Drama, Thriller","Action, Crime, Drama, Thriller",3,4,2,Partial Match
+tt0452637,Drama,"Drama, Horror, Thriller",1,3,1,Partial Match
+tt0452702,"Horror, Thriller","Comedy, Crime, Thriller",2,3,1,Partial Match
+tt0453451,Comedy,"Comedy, Crime, Drama",1,3,1,Partial Match
+tt0454848,"Crime, Drama","Action, Crime, Drama, Thriller",2,4,2,Partial Match
+tt0454876,"Adventure, Drama","Comedy, Drama, Romance",2,3,1,Partial Match
+tt0455407,"Horror, Thriller","Action, Crime, Drama, Thriller",2,4,1,Partial Match
+tt0456481,Romance,"Action, Adventure, Comedy, Romance",1,4,1,Partial Match
+tt0457430,Drama,"Action, Adventure, Horror, Thriller",1,4,0,All False Positive
+tt0459293,Drama,"Crime, Drama",1,2,1,Partial Match
+tt0462229,"Action, Comedy, Crime","Action, Comedy, Crime, Drama",3,4,3,Partial Match
+tt0462538,"Adventure, Comedy","Comedy, Drama",2,2,1,Partial Match
+tt0463854,Horror,"Horror, Thriller",1,2,1,Partial Match
+tt0464154,"Comedy, Horror",Drama,2,1,0,All False Positive
+tt0465502,Comedy,"Adventure, Comedy, Drama",1,3,1,Partial Match
+tt0465602,"Action, Comedy, Crime","Action, Crime, Drama",3,3,2,Partial Match
+tt0467406,"Comedy, Drama, Romance","Comedy, Drama, Romance",3,3,3,Exact Match
+tt0468094,Drama,"Crime, Drama, Thriller",1,3,1,Partial Match
+tt0473705,"Crime, Drama","Action, Crime, Drama, Thriller",2,4,2,Partial Match
+tt0476643,"Comedy, Drama, Romance","Comedy, Drama",3,2,2,Partial Match
+tt0477071,"Drama, Thriller","Adventure, Comedy, Crime, Drama, Horror",2,5,1,Partial Match
+tt0478087,"Crime, Drama, Thriller","Action, Comedy, Crime, Drama, Romance, Thriller",3,6,3,Partial Match
+tt0479143,Drama,Drama,1,1,1,Exact Match
+tt0480242,"Comedy, Drama, Romance","Drama, Romance",3,2,2,Partial Match
+tt0484111,"Comedy, Drama","Crime, Drama, Thriller",2,3,1,Partial Match
+tt0485985,"Action, Adventure, Drama","Action, Adventure",3,2,2,Partial Match
+tt0489282,"Adventure, Comedy","Comedy, Romance",2,2,1,Partial Match
+tt0490196,Comedy,"Comedy, Drama",1,2,1,Partial Match
+tt0493949,"Adventure, Comedy","Comedy, Drama, Romance",2,3,1,Partial Match
+tt0498399,"Crime, Drama, Thriller","Action, Crime, Drama, Thriller",3,4,3,Partial Match
+tt0783608,"Crime, Drama","Drama, Romance",2,2,1,Partial Match
+tt0790686,Horror,"Crime, Drama, Horror, Thriller",1,4,1,Partial Match
+tt0790799,Drama,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0795434,"Comedy, Drama, Romance","Action, Comedy, Drama, Romance",3,4,3,Partial Match
+tt0796366,"Action, Adventure","Drama, Thriller",2,2,0,All False Positive
+tt0799954,Drama,"Action, Adventure",1,2,0,All False Positive
+tt0800039,"Comedy, Drama, Romance","Comedy, Drama, Romance",3,3,3,Exact Match
+tt0804452,Comedy,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0804497,"Comedy, Drama, Romance","Comedy, Drama, Romance",3,3,3,Exact Match
+tt0810988,Drama,"Crime, Drama, Romance, Thriller",1,4,1,Partial Match
+tt0811080,Action,"Action, Comedy, Drama",1,3,1,Partial Match
+tt0814255,Adventure,"Adventure, Drama, Romance, Thriller",1,4,1,Partial Match
+tt0816238,Comedy,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0816442,Drama,"Action, Adventure, Drama, Thriller",1,4,1,Partial Match
+tt0816692,"Adventure, Drama","Action, Adventure, Drama",2,3,2,Partial Match
+tt0817177,"Comedy, Drama, Romance",Drama,3,1,1,Partial Match
+tt0817545,"Action, Crime, Drama",Drama,3,1,1,Partial Match
+tt0818669,Comedy,"Adventure, Comedy, Drama, Romance",1,4,1,Partial Match
+tt0835418,Comedy,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt0840322,Drama,"Crime, Drama, Horror, Thriller",1,4,1,Partial Match
+tt0841108,"Comedy, Drama, Romance","Comedy, Drama, Romance",3,3,3,Exact Match
+tt0843876,Comedy,"Action, Adventure, Comedy, Drama",1,4,1,Partial Match
+tt0866437,"Comedy, Drama, Romance","Comedy, Drama",3,2,2,Partial Match
+tt0887883,Comedy,"Comedy, Crime, Thriller",1,3,1,Partial Match
+tt0887966,"Comedy, Crime, Drama","Comedy, Crime, Drama, Romance",3,4,3,Partial Match
+tt0903624,Adventure,"Action, Adventure, Drama, Thriller",1,4,1,Partial Match
+tt0926084,Adventure,"Action, Adventure, Drama",1,3,1,Partial Match
+tt0938330,"Horror, Thriller","Action, Crime, Drama, Thriller",2,4,1,Partial Match
+tt0945513,Thriller,"Action, Adventure",1,2,0,All False Positive
+tt0960098,"Crime, Thriller","Drama, Romance",2,2,0,All False Positive
+tt0960731,Comedy,"Action, Adventure, Drama",1,3,0,All False Positive
+tt0962726,"Comedy, Drama","Action, Comedy",2,2,1,Partial Match
+tt0962736,Drama,"Drama, Romance",1,2,1,Partial Match
+tt0989757,"Drama, Romance","Drama, Romance",2,2,2,Exact Match
+tt0990376,Horror,"Drama, Thriller",1,2,0,All False Positive
+tt0993789,"Comedy, Drama",Drama,2,1,1,Partial Match
+tt1000774,"Comedy, Drama, Romance","Drama, Romance",3,2,2,Partial Match
+tt1007029,Drama,"Crime, Drama, Romance, Thriller",1,4,1,Partial Match
+tt1013743,"Action, Comedy, Romance","Comedy, Drama, Romance, Thriller",3,4,2,Partial Match
+tt1014775,"Adventure, Comedy, Drama","Action, Adventure, Comedy",3,3,2,Partial Match
+tt1018785,"Comedy, Drama, Romance","Comedy, Drama, Romance",3,3,3,Exact Match
+tt1027729,"Crime, Drama, Romance","Comedy, Drama, Romance",3,3,2,Partial Match
+tt1034331,"Action, Crime, Drama","Action, Adventure, Crime, Drama, Thriller",3,5,3,Partial Match
+tt1045670,"Comedy, Drama","Comedy, Drama, Romance",2,3,2,Partial Match
+tt1046163,"Comedy, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt1049405,"Comedy, Drama, Romance","Comedy, Drama, Romance",3,3,3,Exact Match
+tt1055369,"Action, Adventure","Action, Adventure",2,2,2,Exact Match
+tt1068649,Drama,"Crime, Drama, Thriller",1,3,1,Partial Match
+tt1072437,Drama,"Adventure, Comedy, Drama",1,3,1,Partial Match
+tt1073498,Comedy,"Comedy, Drama",1,2,1,Partial Match
+tt1077368,"Comedy, Horror","Action, Comedy, Crime, Drama",2,4,1,Partial Match
+tt1080016,"Action, Adventure","Action, Adventure, Comedy",2,3,2,Partial Match
+tt1083456,Comedy,"Comedy, Crime, Drama",1,3,1,Partial Match
+tt1121931,"Action, Crime","Action, Crime, Drama, Thriller",2,4,2,Partial Match
+tt1129412,"Horror, Thriller","Comedy, Thriller",2,2,1,Partial Match
+tt1130884,Thriller,"Action, Adventure, Drama, Thriller",1,4,1,Partial Match
+tt1155076,"Action, Drama","Action, Crime, Drama, Thriller",2,4,2,Partial Match
+tt1170358,Adventure,"Action, Adventure, Horror, Thriller",1,4,1,Partial Match
+tt1176960,"Action, Comedy, Drama","Comedy, Romance",3,2,1,Partial Match
+tt1182345,Drama,"Drama, Horror",1,2,1,Partial Match
+tt1186367,"Action, Crime, Thriller","Action, Adventure, Crime, Drama, Thriller",3,5,3,Partial Match
+tt1186370,"Comedy, Drama, Romance","Comedy, Drama, Romance",3,3,3,Exact Match
+tt1187044,"Comedy, Drama","Comedy, Crime, Drama",2,3,2,Partial Match
+tt1196141,Comedy,Drama,1,1,0,All False Positive
+tt1205537,"Action, Drama, Thriller","Action, Drama, Thriller",3,3,3,Exact Match
+tt1210819,"Action, Adventure","Action, Adventure, Drama",2,3,2,Partial Match
+tt1212419,Drama,"Action, Drama, Thriller",1,3,1,Partial Match
+tt1212436,"Comedy, Romance","Comedy, Drama, Romance",2,3,2,Partial Match
+tt1212909,Drama,"Drama, Romance",1,2,1,Partial Match
+tt1215458,Comedy,"Comedy, Drama",1,2,1,Partial Match
+tt1228987,"Drama, Horror","Drama, Thriller",2,2,1,Partial Match
+tt1230215,Drama,"Action, Adventure, Crime, Drama",1,4,1,Partial Match
+tt1230448,"Comedy, Drama","Action, Crime, Thriller",2,3,0,All False Positive
+tt1233227,Horror,"Drama, Thriller",1,2,0,All False Positive
+tt1252595,Drama,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt1253853,Drama,"Comedy, Drama",1,2,1,Partial Match
+tt1268799,"Adventure, Comedy","Action, Adventure, Comedy",2,3,2,Partial Match
+tt1275863,"Comedy, Drama, Romance","Action, Comedy, Romance",3,3,2,Partial Match
+tt1276419,Drama,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt1277953,"Adventure, Comedy","Adventure, Comedy",2,2,2,Exact Match
+tt1291150,"Action, Adventure, Comedy","Action, Adventure",3,2,2,Partial Match
+tt1292655,Drama,"Adventure, Drama",1,2,1,Partial Match
+tt1300854,"Action, Adventure","Action, Adventure",2,2,2,Exact Match
+tt1302011,"Action, Adventure","Adventure, Drama",2,2,1,Partial Match
+tt1302067,"Adventure, Comedy","Adventure, Comedy",2,2,2,Exact Match
+tt1311071,"Drama, Romance","Crime, Drama, Thriller",2,3,1,Partial Match
+tt1316616,Drama,"Action, Drama",1,2,1,Partial Match
+tt1324078,"Action, Crime, Romance","Comedy, Romance",3,2,1,Partial Match
+tt1327194,"Drama, Romance","Drama, Romance",2,2,2,Exact Match
+tt1355630,Drama,"Drama, Romance, Thriller",1,3,1,Partial Match
+tt1366344,Comedy,"Action, Crime, Drama, Thriller",1,4,0,All False Positive
+tt1368440,"Drama, Thriller","Action, Crime, Thriller",2,3,1,Partial Match
+tt1395025,Action,"Action, Adventure, Crime, Drama, Thriller",1,5,1,Partial Match
+tt1396218,Comedy,"Action, Comedy, Crime, Drama",1,4,1,Partial Match
+tt1403988,"Comedy, Drama, Romance","Drama, Romance, Thriller",3,3,2,Partial Match
+tt1408253,"Action, Comedy, Crime","Action, Adventure, Crime, Drama",3,4,2,Partial Match
+tt1418377,Action,"Action, Adventure, Thriller",1,3,1,Partial Match
+tt1426329,Drama,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt1428459,Drama,"Comedy, Romance",1,2,0,All False Positive
+tt1430626,"Adventure, Comedy","Action, Adventure, Comedy",2,3,2,Partial Match
+tt1433822,"Horror, Thriller","Drama, Horror, Thriller",2,3,2,Partial Match
+tt1433905,"Action, Comedy, Drama","Action, Adventure, Comedy, Romance",3,4,2,Partial Match
+tt1438254,"Drama, Romance",Drama,2,1,1,Partial Match
+tt1449283,"Adventure, Comedy","Adventure, Drama",2,2,1,Partial Match
+tt1453405,"Adventure, Comedy","Adventure, Comedy",2,2,2,Exact Match
+tt1458175,"Crime, Drama, Romance","Action, Crime, Drama, Thriller",3,4,2,Partial Match
+tt1462054,Drama,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt1486190,"Comedy, Drama, Romance","Comedy, Drama, Romance",3,3,3,Exact Match
+tt1502404,"Action, Comedy","Action, Adventure, Crime, Thriller",2,4,1,Partial Match
+tt1521197,"Drama, Thriller","Action, Crime, Drama, Thriller",2,4,2,Partial Match
+tt1525838,Drama,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt1560479,"Horror, Thriller","Comedy, Crime, Drama, Romance, Thriller",2,5,1,Partial Match
+tt1562871,"Action, Adventure","Action, Drama",2,2,1,Partial Match
+tt1568923,Drama,"Comedy, Drama",1,2,1,Partial Match
+tt1570989,"Comedy, Drama","Comedy, Drama, Romance",2,3,2,Partial Match
+tt1582507,"Horror, Thriller","Action, Crime, Drama, Thriller",2,4,1,Partial Match
+tt1596346,Drama,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt1600195,"Action, Thriller","Action, Crime, Drama, Thriller",2,4,2,Partial Match
+tt1603257,"Horror, Thriller","Crime, Drama, Thriller",2,3,1,Partial Match
+tt1605803,Drama,"Action, Comedy, Crime, Drama",1,4,1,Partial Match
+tt1618430,"Action, Crime, Drama","Action, Adventure",3,2,1,Partial Match
+tt1628024,Horror,"Crime, Drama, Thriller",1,3,0,All False Positive
+tt1629376,"Drama, Thriller","Drama, Romance, Thriller",2,3,2,Partial Match
+tt1637725,Comedy,"Comedy, Drama",1,2,1,Partial Match
+tt1640484,"Comedy, Drama","Comedy, Drama, Romance",2,3,2,Partial Match
+tt1669846,Drama,"Crime, Drama, Thriller",1,3,1,Partial Match
+tt1670345,"Crime, Thriller","Action, Comedy, Crime",2,3,1,Partial Match
+tt1675192,"Drama, Thriller",Drama,2,1,1,Partial Match
+tt1687281,"Comedy, Drama","Comedy, Drama, Romance",2,3,2,Partial Match
+tt1699513,Drama,"Action, Crime, Drama, Thriller",1,4,1,Partial Match
+tt1702014,"Drama, Romance","Comedy, Drama",2,2,1,Partial Match
+tt1710396,Comedy,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt1710417,Comedy,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt1742044,Drama,Drama,1,1,1,Exact Match
+tt1744847,"Crime, Drama","Crime, Drama, Thriller",2,3,2,Partial Match
+tt1754633,Comedy,"Action, Adventure, Comedy",1,3,1,Partial Match
+tt1769363,"Comedy, Drama, Romance","Drama, Romance",3,2,2,Partial Match
+tt1772240,Horror,"Drama, Thriller",1,2,0,All False Positive
+tt1772341,"Adventure, Comedy","Action, Comedy, Crime, Drama, Romance",2,5,1,Partial Match
+tt1815862,"Action, Adventure","Action, Adventure, Crime, Drama, Romance, Thriller",2,6,2,Partial Match
+tt1821694,"Action, Comedy, Crime","Action, Comedy, Drama",3,3,2,Partial Match
+tt1840309,Adventure,"Action, Adventure, Drama, Romance",1,4,1,Partial Match
+tt1840417,"Drama, Romance","Drama, Romance",2,2,2,Exact Match
+tt1845804,"Drama, Romance","Drama, Romance, Thriller",2,3,2,Partial Match
+tt1849718,"Action, Crime, Drama","Action, Adventure, Drama, Thriller",3,4,2,Partial Match
+tt1853728,Drama,"Action, Crime, Drama",1,3,1,Partial Match
+tt1855325,"Action, Horror","Action, Crime, Drama, Thriller",2,4,1,Partial Match
+tt1915551,Drama,Drama,1,1,1,Exact Match
+tt1931435,Comedy,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt1948150,"Action, Crime, Drama","Action, Crime, Drama, Thriller",3,4,3,Partial Match
+tt1951265,"Adventure, Thriller","Action, Adventure, Horror, Thriller",2,4,2,Partial Match
+tt1975205,"Action, Thriller","Action, Adventure, Crime, Horror",2,4,1,Partial Match
+tt2015381,"Action, Adventure","Action, Adventure",2,2,2,Exact Match
+tt2024469,"Action, Thriller","Action, Crime, Drama, Thriller",2,4,2,Partial Match
+tt2076220,Drama,"Adventure, Drama",1,2,1,Partial Match
+tt2083383,Drama,"Drama, Romance",1,2,1,Partial Match
+tt2085888,"Comedy, Romance","Comedy, Drama",2,2,1,Partial Match
+tt2113822,Drama,"Action, Thriller",1,2,0,All False Positive
+tt2167056,Comedy,Comedy,1,1,1,Exact Match
+tt2178470,"Comedy, Drama","Comedy, Romance",2,2,1,Partial Match
+tt2178941,Drama,Drama,1,1,1,Exact Match
+tt2190367,"Drama, Thriller","Comedy, Drama, Romance",2,3,1,Partial Match
+tt2190984,"Action, Adventure, Drama","Adventure, Drama",3,2,2,Partial Match
+tt2218003,"Crime, Drama","Crime, Drama, Thriller",2,3,2,Partial Match
+tt2224004,Thriller,"Action, Adventure, Crime, Thriller",1,4,1,Partial Match
+tt2234155,Comedy,"Comedy, Romance",1,2,1,Partial Match
+tt2247476,Drama,Drama,1,1,1,Exact Match
+tt2272336,"Comedy, Horror","Action, Crime, Drama, Thriller",2,4,0,All False Positive
+tt2290739,Thriller,"Adventure, Drama",1,2,0,All False Positive
+tt2304583,Drama,"Action, Crime, Horror, Thriller",1,4,0,All False Positive
+tt2313774,"Action, Crime, Drama","Action, Drama, Thriller",3,3,2,Partial Match
+tt2326612,"Crime, Drama","Drama, Thriller",2,2,1,Partial Match
+tt2334873,Drama,"Drama, Romance",1,2,1,Partial Match
+tt2402985,Comedy,"Adventure, Comedy, Crime",1,3,1,Partial Match
+tt2435458,"Comedy, Drama","Drama, Romance",2,2,1,Partial Match
+tt2437954,"Action, Drama","Action, Crime, Drama",2,3,2,Partial Match
+tt2451742,Drama,"Adventure, Drama, Romance",1,3,1,Partial Match
+tt2475154,Drama,"Drama, Romance, Thriller",1,3,1,Partial Match
+tt2528814,Drama,"Drama, Thriller",1,2,1,Partial Match
+tt2576450,"Comedy, Romance","Action, Comedy",2,2,1,Partial Match
+tt2581244,"Comedy, Drama, Horror","Drama, Romance",3,2,1,Partial Match
+tt2709606,Comedy,"Adventure, Comedy",1,2,1,Partial Match
+tt2751390,"Comedy, Drama, Romance",Comedy,3,1,1,Partial Match
+tt2872732,"Action, Thriller","Drama, Thriller",2,2,1,Partial Match
+tt2920808,"Crime, Drama","Comedy, Crime, Drama",2,3,2,Partial Match
+tt2926810,"Comedy, Horror","Action, Adventure, Horror, Thriller",2,4,1,Partial Match
+tt2948266,Comedy,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt2980706,"Adventure, Comedy","Action, Adventure, Comedy, Thriller",2,4,2,Partial Match
+tt3014666,Comedy,"Comedy, Romance",1,2,1,Partial Match
+tt3060492,Drama,"Comedy, Drama, Romance",1,3,1,Partial Match
+tt3142232,"Action, Romance","Action, Adventure, Comedy, Drama, Romance",2,5,2,Partial Match
+tt3399740,Thriller,"Drama, Horror, Thriller",1,3,1,Partial Match
+tt3400342,"Comedy, Drama","Adventure, Comedy, Drama",2,3,2,Partial Match
+tt3511542,"Action, Crime","Action, Crime, Drama, Thriller",2,4,2,Partial Match
+tt3690900,Drama,"Action, Drama",1,2,1,Partial Match

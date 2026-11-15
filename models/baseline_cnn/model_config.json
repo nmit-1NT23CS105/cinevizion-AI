@@ -1,0 +1,33 @@
+{
+    "model_name": "CineVision_Baseline_CNN",
+    "task": "Multi-Label Movie Genre Classification",
+    "input_size": [
+        224,
+        224,
+        3
+    ],
+    "num_classes": 8,
+    "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Crime",
+        "Drama",
+        "Horror",
+        "Romance",
+        "Thriller"
+    ],
+    "output_activation": "sigmoid",
+    "loss": "binary_crossentropy",
+    "optimizer": "Adam",
+    "initial_learning_rate": 0.001,
+    "batch_size": 32,
+    "maximum_epochs": 30,
+    "augmentation": [
+        "RandomFlip",
+        "RandomRotation",
+        "RandomZoom",
+        "RandomTranslation",
+        "RandomContrast"
+    ]
+}

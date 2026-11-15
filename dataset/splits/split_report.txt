@@ -1,0 +1,71 @@
+CINEVISION AI - DATASET SPLIT REPORT
+======================================================================
+
+Dataset: CineVision AI
+Task: Multi-Label Movie Genre Classification
+
+Target Genres:
+- Action
+- Adventure
+- Comedy
+- Crime
+- Drama
+- Horror
+- Romance
+- Thriller
+
+TOTAL RECORDS
+----------------------------------------------------------------------
+Master:       6638
+Training:     5317
+Validation:   660
+Test:         661
+
+SPLIT RATIOS
+----------------------------------------------------------------------
+Training:   80.10%
+Validation: 9.94%
+Test:       9.96%
+
+TRAINING DISTRIBUTION
+----------------------------------------------------------------------
+    Genre  Count  Percentage
+   Action   1071       20.14
+Adventure    694       13.05
+   Comedy   2315       43.54
+    Crime    939       17.66
+    Drama   2893       54.41
+   Horror    402        7.56
+  Romance   1065       20.03
+ Thriller    732       13.77
+
+VALIDATION DISTRIBUTION
+----------------------------------------------------------------------
+    Genre  Count  Percentage
+   Action    134       20.30
+Adventure     87       13.18
+   Comedy    290       43.94
+    Crime    118       17.88
+    Drama    362       54.85
+   Horror     50        7.58
+  Romance    133       20.15
+ Thriller     92       13.94
+
+TEST DISTRIBUTION
+----------------------------------------------------------------------
+    Genre  Count  Percentage
+   Action    134       20.27
+Adventure     87       13.16
+   Comedy    290       43.87
+    Crime    118       17.85
+    Drama    362       54.77
+   Horror     50        7.56
+  Romance    133       20.12
+ Thriller     92       13.92
+
+DATA LEAKAGE CHECK
+----------------------------------------------------------------------
+Train ∩ Validation: 0
+Train ∩ Test:       0
+Validation ∩ Test:  0
+Status: PASS
